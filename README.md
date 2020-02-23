@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Manchestor-City
 
-## Available Scripts
+This is a sports based web application for match tracking. Firebase's authentication, database, storage and hosting is used and React JS is used in frontend.
 
-In the project directory, you can run:
+For the animation react-move and react-reveal is used. Proper private and public routes is developed using firebase auth. An administrator panel for keeping track of the players, team won, lost, draw or not yet played.
 
-### `npm start`
+## Installation
+1. Clone the React App
+2. npm install
+3. Configure firebase
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshot
+<img src='https://user-images.githubusercontent.com/15896579/75110539-59fa3480-5655-11ea-9d59-d1784fc825d8.png' alt=""/>
+<img src='https://user-images.githubusercontent.com/15896579/75110541-5bc3f800-5655-11ea-8ed8-52b786ee3977.png' alt=""/>
+<img src='https://user-images.githubusercontent.com/15896579/75110542-5c5c8e80-5655-11ea-95cd-8a92d9e42876.png' alt=""/>
+<img src='https://user-images.githubusercontent.com/15896579/75110543-5cf52500-5655-11ea-90bc-372667fb5dd7.png' alt=""/>
+<img src='https://user-images.githubusercontent.com/15896579/75110544-5cf52500-5655-11ea-9c96-cabff82266c8.png' alt=""/>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Video
+Project Overview: https://www.loom.com/share/dc4e7bdafa9d4d28ab9fdefbce28bc03
+Firebase Hosting: https://www.loom.com/share/4273fd4b6fa34f3d9484d3bd8bbb824e

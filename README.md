@@ -2,12 +2,63 @@
 
 This is a sports based web application for match tracking. Firebase's authentication, database, storage and hosting is used and React JS is used in frontend.
 
-For the animation react-move and react-reveal is used. Proper private and public routes is developed using firebase auth. An administrator panel for keeping track of the players, team won, lost, draw or not yet played.
+For the animation react-move and react-reveal is used. Proper private and public routes is developed using firebase auth. An administrator panel for keeping track of the players, team won, lost, draw or not yet played. Reusable components are used for optimized code. 
 
 ## Installation
 1. Clone the React App
 2. npm install
 3. Configure firebase
+4. Firebase Config - Create a file named firebase.js (inside project) - This file should contain your firebase keys
+
+```
+import firebase from "firebase/app";
+import "firebase/app";
+import "firebase/database";
+import "firebase/auth";
+import "firebase/storage";
+
+// Your web app's Firebase configuration - you get this key in firebase app setting under Firebase SDK snippet (2nd tab CDN) - Copy-paste entire firebaseConfig
+
+var firebaseConfig = {
+  apiKey: "Your API key",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+// Initialize DB Alias
+const firebaseDB = firebase.database();
+const firebaseMatches = firebaseDB.ref("matches");
+const firebasePromotions = firebaseDB.ref("promotions");
+const firebaseTeams = firebaseDB.ref("teams");
+const firebasePlayers = firebaseDB.ref("players");
+
+export {
+  firebase,
+  firebaseMatches,
+  firebasePromotions,
+  firebaseTeams,
+  firebasePlayers,
+  firebaseDB
+};
+
+// fetching data
+// firebaseDB
+//   .ref("matches")
+//   .once("value")
+//   .then(snapshot => {
+//     console.log(snapshot.val());
+//   });
+
+
+```
 
 ## Screenshot
 <img src='https://user-images.githubusercontent.com/15896579/75110539-59fa3480-5655-11ea-9d59-d1784fc825d8.png' alt=""/>

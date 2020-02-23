@@ -8,7 +8,7 @@ For the animation react-move and react-reveal is used. Proper private and public
 1. Clone the React App
 2. npm install
 3. Configure firebase
-4. Firebase Config - Create a file named firebase.js (inside project) - This file should contain your firebase keys
+4. Firebase Config - Create a file named firebase.js (inside project/src) - This file should contain your firebase keys
 
 ```
 import firebase from "firebase/app";

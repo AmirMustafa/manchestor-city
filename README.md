@@ -1,6 +1,6 @@
 # Manchestor-City
 
-This is a sports based web application developed. Firebase's authentication, database, storage and hosting is used and React JS is used in frontend.
+This is a sports based web application using Firebase's authentication, database, storage and hosting is used and React JS is used in frontend.
 
 For the animation React Move and React Reveal is used. Proper privates public and private routes is developed using auth. An administrator panel for keeping track of the players, team won, lost, draw or not yet played.
 

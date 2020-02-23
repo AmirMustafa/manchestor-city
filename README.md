@@ -1,6 +1,6 @@
 # Manchestor-City
 
-This is a sports based web application for match tracking. Firebase's authentication, database, storage and hosting is used and React JS is used in frontend.
+This is a sports based web application for match-tracker. Firebase's authentication, database, storage and hosting is used and React JS is used in frontend.
 
 For the animation react-move and react-reveal is used. Proper private and public routes is developed using firebase auth. An administrator panel for keeping track of the players, team won, lost, draw or not yet played. Reusable components are used for optimized code. 
 

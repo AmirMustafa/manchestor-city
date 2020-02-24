@@ -71,7 +71,7 @@ export {
 Project Overview: https://www.loom.com/share/dc4e7bdafa9d4d28ab9fdefbce28bc03
 
 ## Other Relevant Videos
-Initializing Firebase: https://www.loom.com/share/ee9dfcb00dbc42bd8971bcb916fb8418
-<br />Populating Data in Firebase: https://www.loom.com/share/8c9de52911f54dbe8c6eb31220f33d1b
-<br />Firebase Auth Setup: https://www.loom.com/share/85ccc187c800497cba7626889e3a38eb
-<br />Firebase Hosting: https://www.loom.com/share/4273fd4b6fa34f3d9484d3bd8bbb824e
+<br />Initializing Firebase: https://www.loom.com/share/ee9dfcb00dbc42bd8971bcb916fb8418
+<br /><br />Populating Data in Firebase: https://www.loom.com/share/8c9de52911f54dbe8c6eb31220f33d1b
+<br /><br />Firebase Auth Setup: https://www.loom.com/share/85ccc187c800497cba7626889e3a38eb
+<br /><br />Firebase Hosting: https://www.loom.com/share/4273fd4b6fa34f3d9484d3bd8bbb824e

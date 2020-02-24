@@ -1,8 +1,9 @@
 # Manchestor-City
 
-This is a sports based web application for match-tracker. Firebase's authentication, database, storage and hosting is used and React JS is used in frontend.
+Manchestor City is a sports based Single Page Web application. This project was developed for matches and teams management. 
 
-For the animation react-move and react-reveal is used. Proper private and public routes is developed using firebase auth. An administrator panel for keeping track of the players, team won, lost, draw or not yet played. Reusable components are used for optimized code. 
+It is developed in React JS and Firebase. For the animation React Move and React Reveal is used. Reusable components are used for optimized code. Public and private routes, Form validation, Higher Order Components are used in this web application.
+
 
 ## Installation
 1. Clone the React App
